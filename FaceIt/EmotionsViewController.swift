@@ -14,7 +14,8 @@ class EmotionsViewController: UIViewController
         "angry" : FacialExpression(eyes: .Closed, eyeBrows: .Furrowed, mouth: .Frown),
         "happy" : FacialExpression(eyes: .Open, eyeBrows: .Normal, mouth: .Smile),
         "worried" : FacialExpression(eyes: .Open, eyeBrows: .Relaxed, mouth: .Smirk),
-        "mischievious" : FacialExpression(eyes: .Open, eyeBrows: .Furrowed, mouth: .Grin)
+        "mischievious" : FacialExpression(eyes: .Open, eyeBrows: .Furrowed, mouth: .Grin),
+        "arrogant" : FacialExpression(eyes: .Open, eyeBrows: .Furrowed, mouth: .Neutral)
     ]
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
